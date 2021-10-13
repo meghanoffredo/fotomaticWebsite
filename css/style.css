@@ -172,11 +172,19 @@ header .mobile {
 #sign-up-cta .striking {
   font-family: 'Rubik', sans-serif;
   padding-bottom: .75rem;
+  font-size: 3.125rem;
+}
+
+#sign-up-cta .email {
+  font-family: 'Roboto', serif;
+  font-weight: 300;
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
 }
 
 /* Tablet Specs */

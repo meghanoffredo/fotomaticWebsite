@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -36,7 +35,6 @@ html {
 }
 
 /* Header */
-
 header {
   position: fixed;
   top: 0;
@@ -126,7 +124,6 @@ header .mobile {
 }
 
 /* Sign Up Section */
-
 #sign-up-section {
   background-image: url("/images/banner-landingpage.jpg");
   background-repeat: no-repeat;
@@ -231,7 +228,6 @@ header .mobile {
 }
 
 /* Features Section */
-
 #features-section {
   display: flex;
   padding: 4rem 5%;
@@ -318,7 +314,6 @@ header .mobile {
 }
 
 /* Filters Section */
-
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
@@ -330,24 +325,31 @@ header .mobile {
 }
 
 #filters-section .content h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 2.25rem;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 1.4;
   color: white;
 }
 
 #filters-section .content h3 {
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   line-height: 1.4;
   font-weight: 300;
+  line-height: 1.4;
   color: white;
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+/* Mobile Specs */
+@media only screen and (max-width: 480px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -378,31 +380,37 @@ header .mobile {
 }
 
 /* Quotes Section */
-
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 4rem;
 }
 
 #quotes-section content {
-  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: 'Palatino', serif;
+  font-style: italic;
   font-size: 1.875rem;
   line-height: 1.1;
-  font-style: italic;
   color: #4a4a4a;
 }
 
 #quotes-section quote-citation {
   height: 1.875rem;
+
 }
 
-@media only screen and (max-width: 760px) {
+/* Mobile Specs */
+@media only screen and (max-width: 480px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
+    flex-flow: column;
   }
 
   #quotes-section quote {
@@ -418,23 +426,25 @@ header .mobile {
 }
 
 /* Footer */
-
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
 }
 
 footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  padding: 1.5rem 2rem;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
 }
 
 footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+/* Mobile Specs */
+@media only screen and (min-width: 480px) {
   footer .content {
     font-size: .625rem;
   }
